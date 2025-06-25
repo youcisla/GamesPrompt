@@ -1,17 +1,48 @@
 # Modèle de prompt réutilisable : Génération d'exercices Python pour débutants
 
-Ce fichier contient un prompt puissant que tu peux utiliser à tout moment pour générer de nouveaux exercices en Python sur l'automatisation ou la création de jeux simples, avec un niveau accessible pour les débutants.
+Ce fichier contient un modèle puissant que tu peux utiliser pour apprendre à programmer en Python tout en t’amusant avec des jeux simples ou des bots automatisés.
 
-Comment utiliser ce prompt :
+Ce modèle est spécialement conçu pour les jeunes débutants qui veulent apprendre à coder **avec l’aide de l’intelligence artificielle (comme ChatGPT)**. L’objectif est de t’aider à **réfléchir intelligemment**, à **résoudre les problèmes**, et à **progresser pas à pas**.
 
-1. Copie le texte ci-dessous.
-2. Remplace [INSÉRER_NOM_DU_JEU] par le nom du jeu de ton choix (ex : Cookie Clicker, Tetris, Flappy Bird...).
-3. Envoie ce prompt dans ChatGPT ou un autre outil d’IA.
-4. Tu recevras un exercice complet en format texte prêt à être utilisé.
+---
+
+Comment utiliser ce modèle :
+
+1. Lis bien toutes les parties de ce fichier.
+2. Copie le texte du prompt en bas de page.
+3. Colle ce prompt dans ChatGPT ou un outil similaire.
+4. Remplace [INSÉRER_NOM_DU_JEU] par le nom du jeu que tu veux créer ou automatiser (ex : Cookie Clicker, Tetris...).
+5. ChatGPT va te générer un exercice complet pour apprendre à coder ce jeu étape par étape.
+
+---
+
+Conseils pour bien démarrer :
+
+- Tu peux commencer **sans rien connaître** à la programmation.
+- Installe Python sur ton PC (tu peux chercher "télécharger Python 3" sur Google).
+- Utilise un éditeur de texte simple comme **Thonny**, **VS Code** ou **Replit** (en ligne).
+- Suis les étapes une par une. Si quelque chose ne marche pas, **pose la question à ChatGPT** ou cherche sur Internet.
+- L’important n’est pas de tout comprendre d’un coup, mais de **continuer à essayer** et à **résoudre les petits problèmes un par un**.
+- Tu vas apprendre à :
+  - Lire et exécuter du code Python
+  - Automatiser des jeux avec ton clavier ou ton navigateur
+  - Utiliser une IA pour améliorer ton raisonnement et ta logique
+
+---
+
+Objectif principal :
+
+Ce modèle va t’entraîner à :
+
+- Réfléchir comme un développeur
+- Utiliser l’intelligence artificielle comme un assistant de programmation
+- Apprendre à construire de vrais petits projets amusants
+
+---
 
 Prompt à copier-coller :
 ```
-Tu es un formateur expert en Python et ton objectif est d’aider un débutant à créer un jeu simple ou à automatiser un jeu en ligne à l’aide de Python.
+Tu es un formateur expert en Python et ton objectif est d’aider un débutant de 15 ans à créer un jeu simple ou à automatiser un jeu en ligne avec Python.
 
 Génère un exercice complet en format texte qui explique comment automatiser ou recréer le jeu [INSÉRER_NOM_DU_JEU] en Python.
 
