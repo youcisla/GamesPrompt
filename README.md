@@ -1,90 +1,81 @@
-# Modèle de prompt réutilisable : Génération d'exercices Python pour débutants
+# Modèle de prompt : Génération automatique d'exercices Python avec IA
 
-Ce fichier contient un modèle puissant que tu peux utiliser pour apprendre à programmer en Python tout en t’amusant avec des jeux simples ou des bots automatisés.
-
-Ce modèle est spécialement conçu pour les jeunes débutants qui veulent apprendre à coder **avec l’aide de l’intelligence artificielle (comme ChatGPT)**. L’objectif est de t’aider à **réfléchir intelligemment**, à **résoudre les problèmes**, et à **progresser pas à pas**.
+Ce fichier permet à un parent (ou encadrant) de générer des exercices pédagogiques en Python pour un adolescent débutant, en s'appuyant sur l’intelligence artificielle comme support d’apprentissage.
 
 ---
 
-Comment utiliser ce modèle :
+## Objectif de ce modèle
 
-1. Lis bien toutes les parties de ce fichier.
-2. Copie le texte du prompt en bas de page.
-3. Colle ce prompt dans ChatGPT ou un outil similaire.
-4. Remplace [INSÉRER_NOM_DU_JEU] par le nom du jeu que tu veux créer ou automatiser (ex : Cookie Clicker, Tetris...).
-5. ChatGPT va te générer un exercice complet pour apprendre à coder ce jeu étape par étape.
+Permettre de créer facilement un fichier d’exercice structuré pour un jeu simple (automatisé ou recréé en Python), avec une logique progressive, des instructions détaillées, et une initiation douce à la programmation assistée par IA.
 
----
-
-Conseils pour bien démarrer :
-
-- Tu peux commencer **sans rien connaître** à la programmation.
-- Installe Python sur ton PC (tu peux chercher "télécharger Python 3" sur Google).
-- Utilise un éditeur de texte simple comme **Thonny**, **VS Code** ou **Replit** (en ligne).
-- Suis les étapes une par une. Si quelque chose ne marche pas, **pose la question à ChatGPT** ou cherche sur Internet.
-- L’important n’est pas de tout comprendre d’un coup, mais de **continuer à essayer** et à **résoudre les petits problèmes un par un**.
-- Tu vas apprendre à :
-  - Lire et exécuter du code Python
-  - Automatiser des jeux avec ton clavier ou ton navigateur
-  - Utiliser une IA pour améliorer ton raisonnement et ta logique
+Chaque exercice généré devra inclure :
+- Des étapes claires et progressives
+- Des consignes accessibles à un débutant
+- Des explications motivantes et pédagogiques
+- Des conseils pour utiliser l’IA (comme ChatGPT) de manière responsable et intelligente
 
 ---
 
-Objectif principal :
+## Comment utiliser ce modèle
 
-Ce modèle va t’entraîner à :
+1. Copier le texte du prompt ci-dessous.
+2. Remplacer **[INSÉRER_NOM_DU_JEU]** par le nom du jeu que vous souhaitez que l’enfant travaille (exemples : Cookie Clicker, Dino, Flappy Bird).
+3. Envoyer le prompt à ChatGPT (ou tout autre assistant IA).
+4. L’IA renverra un fichier d'exercice structuré, à transmettre à l’élève.
 
-- Réfléchir comme un développeur
-- Utiliser l’intelligence artificielle comme un assistant de programmation
-- Apprendre à construire de vrais petits projets amusants
+Le fichier généré pourra ensuite être suivi par l’adolescent, qui apprendra à :
+- Lire et comprendre du code Python
+- Automatiser des actions simples dans un jeu
+- Appliquer des logiques conditionnelles
+- Utiliser une IA comme soutien pour comprendre, corriger ou améliorer le projet
 
 ---
 
-Prompt à copier-coller :
+## Prompt à copier-coller
 ```
-Tu es un formateur expert en Python et ton objectif est d’aider un débutant de 15 ans à créer un jeu simple ou à automatiser un jeu en ligne avec Python.
+Tu es un formateur expert en Python et ton objectif est de générer un exercice structuré pour un adolescent débutant de 15 ans.
 
-Génère un exercice complet en format texte qui explique comment automatiser ou recréer le jeu [INSÉRER_NOM_DU_JEU] en Python.
+Génère un exercice complet, au format texte (Markdown), qui explique comment automatiser ou recréer le jeu **[INSÉRER_NOM_DU_JEU]** en Python. Le fichier doit être pédagogique, clair et motivant.
 
-Le niveau doit être débutant : pas de réseaux de neurones ni d’apprentissage profond. L’exercice doit se baser sur des règles simples, une logique claire, ou des automatismes faciles à implémenter.
+Le niveau doit être débutant : pas d’algorithmes complexes ni d’apprentissage profond. L’exercice doit reposer sur des règles simples et un raisonnement logique accessible.
 
-Utilise exactement cette structure :
+Structure demandée :
 
 Titre : Exercice : Créer un bot ou un jeu pour [NOM_DU_JEU]
 
 Partie 1 : Créer ou automatiser le jeu de base
 
 Objectif :
-Décrire le but de l’exercice.
+Définir clairement ce que l’élève va apprendre à faire.
 
 Description du jeu :
-Expliquer les règles principales du jeu.
+Expliquer les règles principales du jeu concerné.
 
 Étapes à suivre :
-Lister entre 3 et 6 étapes concrètes pour construire ou automatiser le jeu.
+Lister entre 3 et 6 étapes simples et détaillées pour guider pas à pas la création du jeu ou du bot.
 
 Résultat attendu :
-Décrire ce que l’utilisateur verra ou obtiendra à la fin de cette partie.
+Décrire ce que l’élève doit obtenir à la fin de cette première partie (fonctionnement attendu).
 
 Partie 2 : Ajouter une logique intelligente simple
 
 Objectif :
-Faire en sorte que le bot prenne des décisions automatiquement.
+Faire en sorte que le programme prenne des décisions simples automatiquement.
 
 Étapes IA :
-Donner une logique simple (par exemple : if/else, heuristique, détection visuelle de pixel).
+Fournir une logique conditionnelle ou heuristique basique (ex. if/else, règle de détection, décision automatique simple).
 
 Résultat attendu :
-Expliquer ce que cette logique permet d’ajouter au jeu.
+Expliquer en quoi cette amélioration rend le programme plus intelligent ou autonome.
 
 Bonus :
-Proposer quelques idées simples pour améliorer ou prolonger le projet.
+Proposer quelques idées d'améliorations optionnelles.
 
 Pré-requis techniques :
-Lister les outils nécessaires (Python, bibliothèques à installer, navigateur Edge si jeu en ligne).
+Indiquer les éléments nécessaires (Python, bibliothèques éventuelles, navigateur Edge s’il s’agit d’un jeu en ligne, etc.).
 
 Conclusion :
-Terminer par un message motivant encourageant l’expérimentation, même pour un débutant.
+Terminer par un message encourageant, avec une ouverture vers l’exploration ou la personnalisation du projet.
 
-Applique maintenant ce modèle au jeu suivant : [INSÉRER_NOM_DU_JEU]
+Applique maintenant ce modèle au jeu suivant : **[INSÉRER_NOM_DU_JEU]**
 ```
