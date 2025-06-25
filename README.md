@@ -1,81 +1,80 @@
-# Modèle de prompt : Génération automatique d'exercices Python avec IA
+# Prompt Template for Generating Python Game Exercises (Beginner Level)
 
-Ce fichier permet à un parent (ou encadrant) de générer des exercices pédagogiques en Python pour un adolescent débutant, en s'appuyant sur l’intelligence artificielle comme support d’apprentissage.
-
----
-
-## Objectif de ce modèle
-
-Permettre de créer facilement un fichier d’exercice structuré pour un jeu simple (automatisé ou recréé en Python), avec une logique progressive, des instructions détaillées, et une initiation douce à la programmation assistée par IA.
-
-Chaque exercice généré devra inclure :
-- Des étapes claires et progressives
-- Des consignes accessibles à un débutant
-- Des explications motivantes et pédagogiques
-- Des conseils pour utiliser l’IA (comme ChatGPT) de manière responsable et intelligente
+This file contains a reusable prompt that generates beginner-friendly Python programming exercises. The exercises are designed to teach basic automation and logic through simple games or browser interactions, with the support of AI (such as ChatGPT) as a learning assistant.
 
 ---
 
-## Comment utiliser ce modèle
+## Purpose
 
-1. Copier le texte du prompt ci-dessous.
-2. Remplacer **[INSÉRER_NOM_DU_JEU]** par le nom du jeu que vous souhaitez que l’enfant travaille (exemples : Cookie Clicker, Dino, Flappy Bird).
-3. Envoyer le prompt à ChatGPT (ou tout autre assistant IA).
-4. L’IA renverra un fichier d'exercice structuré, à transmettre à l’élève.
+The goal of this template is to help create structured, progressive exercises that:
 
-Le fichier généré pourra ensuite être suivi par l’adolescent, qui apprendra à :
-- Lire et comprendre du code Python
-- Automatiser des actions simples dans un jeu
-- Appliquer des logiques conditionnelles
-- Utiliser une IA comme soutien pour comprendre, corriger ou améliorer le projet
+- Introduce fundamental programming concepts in Python
+- Guide the learner step by step through a small game project
+- Encourage intelligent problem-solving with the help of AI
+- Promote independent learning through experimentation and feedback
 
 ---
 
-## Prompt à copier-coller
+## How to Use
+
+1. Copy the prompt below.
+2. Replace **[INSERT_GAME_NAME]** with the name of a simple game (e.g., Cookie Clicker, Dino, Flappy Bird, Tetris).
+3. Paste the prompt into an AI assistant like ChatGPT.
+4. The AI will return a **plain French instructional text** (not a markdown file) structured for a beginner.
+
+---
+
+## Expected Output
+
+The output must be a well-structured, step-by-step exercise written in French, with clear instructions, technical steps, and educational guidance. No markdown syntax and no emoji.
+
+---
+
+## Prompt to Copy and Use
 ```
-Tu es un formateur expert en Python et ton objectif est de générer un exercice structuré pour un adolescent débutant de 15 ans.
+You are a Python instructor specialized in designing beginner-level programming exercises.
 
-Génère un exercice complet, au format texte (Markdown), qui explique comment automatiser ou recréer le jeu **[INSÉRER_NOM_DU_JEU]** en Python. Le fichier doit être pédagogique, clair et motivant.
+Generate a complete instructional text (in French) for a beginner-level learner, explaining how to automate or recreate the game **[INSERT_GAME_NAME]** using Python. The text should be written in a clear and motivating tone, as a progressive educational guide.
 
-Le niveau doit être débutant : pas d’algorithmes complexes ni d’apprentissage profond. L’exercice doit reposer sur des règles simples et un raisonnement logique accessible.
+The level must be accessible to a beginner: no neural networks, no complex algorithms. Use simple conditionals, logic, or browser automation.
 
-Structure demandée :
+Structure the content using the following format (in plain French text, no markdown):
 
 Titre : Exercice : Créer un bot ou un jeu pour [NOM_DU_JEU]
 
 Partie 1 : Créer ou automatiser le jeu de base
 
 Objectif :
-Définir clairement ce que l’élève va apprendre à faire.
+Décrire clairement ce que l’élève va apprendre.
 
 Description du jeu :
-Expliquer les règles principales du jeu concerné.
+Présenter brièvement le jeu et ses règles.
 
 Étapes à suivre :
-Lister entre 3 et 6 étapes simples et détaillées pour guider pas à pas la création du jeu ou du bot.
+Lister 3 à 6 étapes simples pour créer ou automatiser le jeu.
 
 Résultat attendu :
-Décrire ce que l’élève doit obtenir à la fin de cette première partie (fonctionnement attendu).
+Décrire ce que le programme doit produire à la fin de cette première partie.
 
 Partie 2 : Ajouter une logique intelligente simple
 
 Objectif :
-Faire en sorte que le programme prenne des décisions simples automatiquement.
+Introduire une logique conditionnelle ou automatisée.
 
 Étapes IA :
-Fournir une logique conditionnelle ou heuristique basique (ex. if/else, règle de détection, décision automatique simple).
+Fournir une logique basique (ex : règles if/else, détection de pixel, stratégie simple).
 
 Résultat attendu :
-Expliquer en quoi cette amélioration rend le programme plus intelligent ou autonome.
+Décrire l’amélioration du comportement du programme.
 
 Bonus :
-Proposer quelques idées d'améliorations optionnelles.
+Suggérer quelques idées pour aller plus loin.
 
 Pré-requis techniques :
-Indiquer les éléments nécessaires (Python, bibliothèques éventuelles, navigateur Edge s’il s’agit d’un jeu en ligne, etc.).
+Lister les outils ou bibliothèques à installer, et les conditions nécessaires à l’exécution.
 
 Conclusion :
-Terminer par un message encourageant, avec une ouverture vers l’exploration ou la personnalisation du projet.
+Clore par un message motivant et pédagogique.
 
-Applique maintenant ce modèle au jeu suivant : **[INSÉRER_NOM_DU_JEU]**
+Now apply this prompt to the following game: **[INSERT_GAME_NAME]**
 ```
